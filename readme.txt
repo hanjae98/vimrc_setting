@@ -23,4 +23,11 @@ VIMRC SETTINGS FOR MULTIPLE LANGUAGES
     *** 주의: 반드시 {filetype}.vim 형식으로 저장! ***
     ex) python.vim  # python 파일들에 대한 설정 넣기
         c.vim       # c 파일들에 대한 설정 넣기
-        
+
+<보기 쉽게>
+~
+ㄴ .vimrc <= filetype plugin on  
+ㄴ .vim
+    ㄴ  ftplugin
+        ㄴ python.vim	 <= python settings for *.py
+        ㄴ c.vim      	 <= c settings for *.c
