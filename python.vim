@@ -1,4 +1,4 @@
-colo molokai_modified7
+colo ds2
 syntax on
 set tabstop=4              
 set expandtab
