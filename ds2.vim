@@ -94,7 +94,7 @@ hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
 
 "Comment : #
-hi Comment	ctermfg=darkgreen
+hi Comment	ctermfg=green
 
 "String
 hi Constant	ctermfg=Magenta
