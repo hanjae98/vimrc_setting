@@ -1,4 +1,5 @@
-syntax on                
+colo molokai_modified7
+syntax on
 set tabstop=4              
 set expandtab
 set softtabstop=4             
