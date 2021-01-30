@@ -94,20 +94,20 @@ hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
 
 "Comment : #
-hi Comment	ctermfg=darkyellow
+hi Comment	ctermfg=darkgreen
 
 "String
 hi Constant	ctermfg=Magenta
 hi Special	ctermfg=Magenta
 
 "identifier!!
-hi Identifier	cterm=NONE ctermfg=green
+hi Identifier	cterm=NONE ctermfg=darkyellow
 
 "class, def
-hi Statement	cterm=NONE ctermfg=cyan
+hi Statement	cterm=bold ctermfg=darkcyan
 
 "import
-hi PreProc	ctermfg=green
+hi PreProc	ctermfg=Magenta
 
 "NotImplementedError
 hi Type		ctermfg=yellow
