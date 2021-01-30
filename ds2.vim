@@ -81,7 +81,7 @@ hi Question	ctermfg=green
 hi StatusLine	cterm=bold,reverse
 hi StatusLineNC cterm=reverse
 hi VertSplit	cterm=reverse
-hi Title	ctermfg=5
+hi Title	ctermfg=Magenta
 hi Visual	cterm=reverse
 hi VisualNOS	cterm=bold,underline
 hi WarningMsg	ctermfg=1
@@ -89,22 +89,35 @@ hi WildMenu	ctermfg=0 ctermbg=3
 hi Folded	ctermfg=darkgrey ctermbg=NONE
 hi FoldColumn	ctermfg=darkgrey ctermbg=NONE
 hi DiffAdd	ctermbg=4
-hi DiffChange	ctermbg=5
+hi DiffChange	ctermbg=Magenta
 hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
+
+"Comment : #
 hi Comment	ctermfg=darkyellow
-hi Constant	ctermfg=brown
-hi Special	ctermfg=5
-hi Identifier	ctermfg=6
-"hi Statement	ctermfg=3
-hi Statement	ctermfg=10
-hi PreProc	ctermfg=5
-hi Type		ctermfg=2
+
+"String
+hi Constant	ctermfg=Magenta
+hi Special	ctermfg=Magenta
+
+"identifier!!
+hi Identifier	cterm=NONE ctermfg=green
+
+"class, def
+hi Statement	cterm=NONE ctermfg=cyan
+
+"import
+hi PreProc	ctermfg=green
+
+"NotImplementedError
+hi Type		ctermfg=yellow
+
 hi Underlined	cterm=underline ctermfg=5
 hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
 
+" :help cterm-colors
 "1: red, 2: green, 3:darkyellow, 4:darkblue
-"5: darkpurple, 6:darkcyan, 7:white, 8:darkgray
+"5: darkpurple, 6:darkcyan, 7:white, 8:darkgrey
 "vim: sw=4
