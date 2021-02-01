@@ -104,7 +104,7 @@ hi Special	ctermfg=Magenta
 hi Identifier	cterm=NONE ctermfg=darkyellow
 
 "class, def
-hi Statement	cterm=bold ctermfg=darkcyan
+hi Statement	cterm=NONE ctermfg=green
 
 "import
 hi PreProc	ctermfg=Magenta
