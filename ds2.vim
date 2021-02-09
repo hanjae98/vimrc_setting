@@ -110,7 +110,7 @@ hi Statement	cterm=NONE ctermfg=green
 hi PreProc	ctermfg=Magenta
 
 "NotImplementedError
-hi Type		ctermfg=Blue
+hi Type		ctermfg=yellow
 
 hi Underlined	cterm=underline ctermfg=5
 hi Ignore	cterm=bold ctermfg=7
